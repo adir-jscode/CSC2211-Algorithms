@@ -1,6 +1,10 @@
 #include<iostream>
 using namespace std;
 
+//time complexity of Binary Search = O(log n) , best case = O(1), average case = O(log n), worst case = O(log n)
+//Binary Search is a Divide and Conquer Algorithm
+//Binary Search is applicable only on sorted array
+
 int Binary_Search(int A[],int n,int data)
 {
     int l,r,mid;
@@ -28,7 +32,7 @@ int Binary_Search(int A[],int n,int data)
 
 int main()
 {
-    //implement binary srarch
+    
     int A[] = {2,3,4,5,6,7};
     int n = sizeof(A)/sizeof(A[0]);
     int data;
@@ -43,6 +47,6 @@ int main()
     {
         cout<<data<<" Found at Index "<<result;
     }
-    
+
     return 0;
 }
