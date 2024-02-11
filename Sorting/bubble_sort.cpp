@@ -28,7 +28,7 @@ void bubble_sort(int A[],int n)
 int main()
 {
     
-    int A[] = {1,2,3,4,5};
+    int A[] = {5,4,3,2,1};
     int n = 5;
     bubble_sort(A,n);
     for(int i=0;i<n;i++)
